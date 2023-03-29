@@ -10,4 +10,13 @@ public class OfferDAOConstant {
 
         String LOGIN_USER = "{call user_login(?,?,?,?,?,?,?,?,?)}";
     }
+
+    public interface OrderConstant{
+
+
+        String GET_ALL_PRODUCTS = "{call get_all_products_proc()}";
+        String GET_ORDER_DETAIL_REQUEST_PROC = "{call get_order_detail_request_proc(?,?,?,?,?,?,?,?,?,?,?)}";
+
+        String CREATE_NEW_ORDER = "{call create_order_request(?,?,?,?,?,?)}";
+    }
 }
