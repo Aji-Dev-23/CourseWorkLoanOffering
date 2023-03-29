@@ -8,10 +8,12 @@ import com.dto.response.CommonResponse;
 import com.dto.response.Product;
 import com.service.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.logging.Logger;
 
+@Service
 public class OrderServiceImpl implements IOrderService {
     Logger logger = Logger.getLogger(this.getClass().getName());
 
